@@ -1,8 +1,12 @@
+'''
+This is the Publisher
+'''
+
 #!/usr/bin/env python3
 
 import paho.mqtt.client as mqtt
 import time
-# This is the Publisher
+import json
 
 def on_publish(client, userdata, mid):
     print ("publish callback!")
@@ -16,7 +20,8 @@ client.connect("111.111.111.1", 1883, 60)
 client.on_publish = on_publish
 client.on_disconnect = on_disconnect
 
-ret = client.publish("topic/gpio", "Hello world!", qos=2, retain=False);
+msg = {"pin":17, "value":0}
+ret = client.publish("topic/gpio", json.dumps(msg), qos=2, retain=False);
 print (ret)
 
 #ret.wait_for_publish():
