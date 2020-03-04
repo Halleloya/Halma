@@ -1,70 +1,13 @@
-1582074753: mosquitto version 1.4.15 (build date Tue, 18 Jun 2019 11:42:22 -0300) starting
-1582074753: Using default config.
-1582074753: Opening ipv4 listen socket on port 1883.
-1582074753: Opening ipv6 listen socket on port 1883.
-1582074757: New connection from 111.111.111.3 on port 1883.
-1582074757: New client connected from 111.111.111.3 as lyhao (c1, k60).
-1582074757: Sending CONNACK to lyhao (0, 0)
-1582074757: Received SUBSCRIBE from lyhao
-1582074757: 	topic/gpio (QoS 2)
-1582074757: lyhao 2 topic/gpio
-1582074757: Sending SUBACK to lyhao
-1582074762: New connection from 111.111.111.2 on port 1883.
-1582074762: New client connected from 111.111.111.2 as 2f7dbfc0-16a3-4351-a550-4aed836fd28d (c1, k60).
-1582074762: Sending CONNACK to 2f7dbfc0-16a3-4351-a550-4aed836fd28d (0, 0)
-1582074762: Received PUBLISH from 2f7dbfc0-16a3-4351-a550-4aed836fd28d (d0, q2, r0, m1, 'topic/gpio', ... (12 bytes))
-1582074762: Sending PUBREC to 2f7dbfc0-16a3-4351-a550-4aed836fd28d (Mid: 1)
-1582074762: Received PUBREL from 2f7dbfc0-16a3-4351-a550-4aed836fd28d (Mid: 1)
-1582074762: Sending PUBCOMP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d (Mid: 1)
-1582074762: Sending PUBLISH to lyhao (d0, q2, r0, m1, 'topic/gpio', ... (12 bytes))
-1582074762: Received PUBREC from lyhao (Mid: 1)
-1582074762: Sending PUBREL to lyhao (Mid: 1)
-1582074762: Received PUBCOMP from lyhao (Mid: 1)
-1582074766: Socket error on client lyhao, disconnecting.
-1582074767: New connection from 111.111.111.3 on port 1883.
-1582074767: New client connected from 111.111.111.3 as lyhao (c1, k60).
-1582074767: Sending CONNACK to lyhao (0, 0)
-1582074767: Received SUBSCRIBE from lyhao
-1582074767: 	topic/gpio (QoS 2)
-1582074767: lyhao 2 topic/gpio
-1582074767: Sending SUBACK to lyhao
-1582074770: Socket error on client lyhao, disconnecting.
-1582074822: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582074822: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582074882: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582074882: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582074942: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582074942: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075002: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075002: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075062: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075062: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075122: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075122: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075182: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075182: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075242: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075242: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075302: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075302: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075363: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075363: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075423: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075423: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075483: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075483: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075543: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075543: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075603: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075603: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075663: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075663: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075723: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075723: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075783: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075783: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075843: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075843: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075903: Received PINGREQ from 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075903: Sending PINGRESP to 2f7dbfc0-16a3-4351-a550-4aed836fd28d
-1582075904: mosquitto version 1.4.15 terminating
+1583341227: New connection from 111.111.111.3 on port 1883.
+1583341227: New client connected from 111.111.111.3 as 4f90f928-6e01-46f2-afcc-5d74df275611 (c1, k60).
+1583341227: 4f90f928-6e01-46f2-afcc-5d74df275611 0 topic/gpio
+1583341231: New connection from 111.111.111.2 on port 1883.
+1583341231: New client connected from 111.111.111.2 as 61069fc0-6ba4-4bb4-a988-fec413add9e6 (c1, k60).
+1583341231: Socket error on client 61069fc0-6ba4-4bb4-a988-fec413add9e6, disconnecting.
+1583341354: New connection from 111.111.111.2 on port 1883.
+1583341354: New client connected from 111.111.111.2 as d93d11d5-d1b3-4d96-a5ea-7463ebe1b42c (c1, k60).
+1583341354: Socket error on client d93d11d5-d1b3-4d96-a5ea-7463ebe1b42c, disconnecting.
+1583341390: New connection from 111.111.111.2 on port 1883.
+1583341390: New client connected from 111.111.111.2 as 637a9b32-57b5-4f5c-b463-da78da01dd57 (c1, k60).
+1583341398: Client 4f90f928-6e01-46f2-afcc-5d74df275611 disconnected.
+1583341399: Client 637a9b32-57b5-4f5c-b463-da78da01dd57 disconnected.
