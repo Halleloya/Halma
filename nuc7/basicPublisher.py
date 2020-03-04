@@ -19,7 +19,7 @@ def on_disconnect(client, userdata, rc):
 
 def main():
 
-    client = mqtt.Client()
+    client = mqtt.Client('id-pub-0001')
     client.connect("111.111.111.1", 1883, 60)
     client.loop_start()
     client.on_publish = on_publish
