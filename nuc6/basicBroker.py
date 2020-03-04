@@ -17,7 +17,7 @@ def on_message(client, userdata, msg):
     #client.disconnect()
     
 if __name__ == '__main__':
-    client = mqtt.Client()
+    client = mqtt.Client('nuc6')
     client.on_connect = on_connect
     client.on_message = on_message
     
