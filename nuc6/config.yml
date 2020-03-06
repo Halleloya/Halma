@@ -1,0 +1,18 @@
+listeners:
+    default:
+        max-connections: 50000
+        type: tcp
+    my-tcp-1:
+        bind: 111.111.111.1:1883
+    my-tcp-2:
+        bind: 111.111.111.1:1884
+        max-connections: 1000
+    my-ws-1:
+        bind: 0.0.0.0:8080
+        type: ws
+timeout-disconnect-delay: 2
+auth:
+    allow-anonymous: true
+topic-check:
+    enabled: True
+    plugins: ['topic_taboo']
