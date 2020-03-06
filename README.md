@@ -12,3 +12,7 @@
 
 > We would be able to see the light on or off with the control messages. 
 
+
+## Progress:
+
+I am trying to get rid of mosquitto, using hbmqtt instead.
