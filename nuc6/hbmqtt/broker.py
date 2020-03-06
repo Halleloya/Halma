@@ -612,6 +612,7 @@ class Broker:
     def add_subscription(self, subscription, session):
         try:
             a_filter = subscription[0]
+            print ('print subscription: ', subscription)
             if '#' in a_filter and not a_filter.endswith('#'):
                 # [MQTT-4.7.1-2] Wildcard character '#' is only allowed as last character in filter
                 return 0x80
