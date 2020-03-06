@@ -30,8 +30,7 @@ def main():
     ret = client.publish("topic/gpio", json.dumps(msg), qos=2, retain=False);
     print (ret)
 
-    #ret.wait_for_publish():
-
+    #ret.wait_for_publish()
     if ret.is_published():
         print ("is published")
     
